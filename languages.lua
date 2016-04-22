@@ -96,7 +96,6 @@ return {
                     ..'`/info` : show some useful informations about the bot\n'
                     ..'`/c` <feedback> : send a feedback/report a bug/ask a question to my creator. _ANY KIND OF SUGGESTION OR FEATURE REQUEST IS WELCOME_. He will reply ASAP\n'
                     ..'`/help` : show this message.'
-		            ..'\n\nIf you like this bot, please leave the vote you think it deserves [here](https://telegram.me/storebot?start=groupbutler_bot)',
 		    private = 'Hey, *&&&1*!\n'
                     ..'I\'m a simple bot created in order to help people to manage their groups.\n'
                     ..'\n*How can you help me?*\n'
