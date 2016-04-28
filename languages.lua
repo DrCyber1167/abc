@@ -37,11 +37,10 @@ return {
         },
         help = {
             owner = '*Commands for the owner*:\n'
-                    ..'`/owner` (by reply) : set a new owner\n'
-                    ..'`/promote` (by reply) : promote as moderator a member\n'
-                    ..'`/demote` (by reply) : demote a member\n'
-                    ..'`/setlink [link|\'no\']` : set the group link, so it can be re-called by mods, or unset it\n'
-                    ..'(obviuosly, the ability to appoint moderators is aimed to let users know who are the real moderators in the group, and so who can add and kick people.\nSo it\'s hardly suggested to point as moderator only who really is a moderator)\n\n',
+                    ..'`/owner`  : انتخاب مدیر جدید\n'
+                    ..'`/promote`  :مقام دادن\n'
+                    ..'`/demote`  : گرفتن مقام\n'
+                    ..'`/setlink [link|\'no\']` : تنظیم لینک گروه\n\n\n'
             moderator = '*Commands for moderators*:\n'
                         ..'`/kick` (by reply) : kick a user from the group (he can be added again)\n'
                         ..'`/ban` (by reply) : ban a user from the group\n'
@@ -88,24 +87,19 @@ return {
                         ..'_rm|mr_ : the welcome message will be integrated with rules and moderators list\n'
                         ..'_ram|rma|mar|mra|arm|amr_ : the welcome message will be integrated with rules, about text and moderators list\n\n',
             all = '*Commands for all*:\n'
-                    ..'`/rules` (if unlocked) : show the group rules\n'
-                    ..'`/about` (if unlocked) : show the group description\n'
-                    ..'`/modlist` (if unlocked) : show the moderators of the group\n'
-                    ..'`/flag msg` (by reply and if unlocked) <optional description> : report the message to administrators\n'
-                    ..'`/tell` : show your basical info or the info about the user you replied to\n'
-                    ..'`/info` : show some useful informations about the bot\n'
-                    ..'`/c` <feedback> : send a feedback/report a bug/ask a question to my creator. _ANY KIND OF SUGGESTION OR FEATURE REQUEST IS WELCOME_. He will reply ASAP\n'
-                    ..'`/help` : show this message.'
+                    ..'`/rules` :نشان دادن قوانین\n'
+                    ..'`/about`  : نشان دادن اینفو گروه\n'
+                    ..'`/modlist`  : لیست مدیر ها\n'
+                    ..'`/flag msg`   :با ریپلی کردن این پیام به دست  ادمین میرسه\n'
+                    ..'`/tell` : اینفو \n'
+                    ..'`/info` : اینفو جالب تر\n'
+                    ..'`/c` <feedback> : فرستادن نظراتتون\n'
+                    ..'`/help` : نشون دادن این راهنما.'
 		            ..'\n\nSee Our Channel @firebotch)',
-		    private = 'Hey, *&&&1*!\n'
-                    ..'I\'m a simple bot created in order to help people to manage their groups.\n'
-                    ..'\n*How can you help me?*\n'
-                    ..'Wew, I have a lot of useful tools! You can *kick or ban* users, set rules and a description, warn users, set some parameters to kick someone when something happens (read: *antiflood*/RTL/media...)\nDiscover more by adding me to a group!\n'
-                    ..'\nThe user who adds me will be set up as owner of the group. If you are not the real owner, you can set it by repliyng one of his messages with `/owner`.'
-                    ..'\nTo use my moderation powers (kick/ban), *you need to add me as administrator of the group*.\nRemember: moderator commands can be used only by who have been promoted with `/promote`. I can\'t see the real admins of the group, this is the only way for now.\n'
-                    ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. EVERYTHING IS WELCOME!'
-                    ..'\n\nSee Our Channel @firebotch)',
-            group = 'I\'ve sent you the help message in *private*.\nIf you have never used me, *start* me and ask for help here *again*.'
+		    private = 'سلام, *&&&1*!\n'
+                    ..' من ی ربات عادی هستم برای مدیریت گروه هاتون\n'
+                    ..'\n\nکانال ما یادت نره @firebotch',
+            group = 'من برات تو پی وی فرستادم راهنما رو اگه نیومد ربات رو استارت کن بع دوباره اینجا درخواست رهنما بده'
         },
         links = {
             no_link = '*No link* for this group. Ask the owner to generate one',
