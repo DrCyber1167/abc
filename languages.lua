@@ -40,7 +40,7 @@ return {
                     ..'`/owner`  : انتخاب مدیر جدید\n'
                     ..'`/promote`  :مقام دادن\n'
                     ..'`/demote`  : گرفتن مقام\n'
-                    ..'`/setlink [link|\'no\']` : تنظیم لینک گروه\n\n\n'
+                    ..'`/setlink [link|\'no\']` : تنظیم لینک گروه\n\n\n',
             moderator = '*Commands for moderators*:\n'
                         ..'`/kick` (by reply) : kick a user from the group (he can be added again)\n'
                         ..'`/ban` (by reply) : ban a user from the group\n'
