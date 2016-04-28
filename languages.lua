@@ -99,7 +99,7 @@ return {
 		    private = 'سلام, *&&&1*!\n'
                     ..' من ی ربات عادی هستم برای مدیریت گروه هاتون\n'
                     ..'\n\nکانال ما یادت نره @firebotch',
-            group = 'من برات تو پی وی فرستادم راهنما رو اگه نیومد ربات رو استارت کن بع دوباره اینجا درخواست رهنما بده'
+            group = 'من برات تو پی وی فرستادم راهنما رو اگه نیومد ربات رو استارت کن بعد دوباره اینجا درخواست رهنما بده'
         },
         links = {
             no_link = 'به من لینکی ندادن از مدیر بپرس بهت میده',
@@ -305,27 +305,27 @@ return {
             wrong_input = 'Wrong input. Use `/media list` to see the available media',
         },
         preprocess = {
-            flood_ban = '&&&1 *banned* for flood',
-            flood_kick = '&&&1 *kicked* for flood',
+            flood_ban = '&&&1 *بن شد* چون فلود کرد',
+            flood_kick = '&&&1 *کیک شد* چون فلود کرد',
             media_kick = '&&&1 *kicked*: media sent not allowed',
             media_ban = '&&&1 *banned*: media sent not allowed',
             rtl = '&&&1 *kicked*: rtl character in names/messages not allowed',
-            arab = '&&&1 *kicked*: arab message detected'
+            arab = '&&&1 *کیک شد*:عربی حرف زد '
         },
         broadcast = {
             delivered = 'Broadcast delivered. Check the log for the list of reached ids',
             no_users = 'No users saved, no broadcast',
         },
         admin = {
-            no_reply = 'This command need a reply',
-            blocked = '&&&1 have been blocked',
-            unblocked = '&&&1 have been unblocked',
-            already_blocked = '&&&1 was already blocked',
-            already_unblocked = '&&&1 was already unblocked',
+            no_reply = 'باید ریپلی کنی',
+            blocked = '&&&1 کیک شدی بای',
+            unblocked = '&&&1 از بلاکی در امد',
+            already_blocked = '&&&1 قبلا بلاکش کرده بودم',
+            already_unblocked = '&&&1 قبلا انبلاک کرده بودم',
             bcg_no_groups = 'No (groups) id saved',
             leave_id_missing = 'ID missing',
             leave_chat_leaved = 'Chat leaved!',
-            leave_error = 'Check the id, it could be wrong'
+            leave_error = 'ای دی اشتبه'
             
         },
         kick_errors = {
