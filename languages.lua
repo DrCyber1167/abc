@@ -102,11 +102,11 @@ return {
             group = 'من برات تو پی وی فرستادم راهنما رو اگه نیومد ربات رو استارت کن بع دوباره اینجا درخواست رهنما بده'
         },
         links = {
-            no_link = '*No link* for this group. Ask the owner to generate one',
+            no_link = 'به من لینکی ندادن از مدیر بپرس بهت میده',
             link = '[&&&1](&&&2)',
-            link_invalid = 'This link is *not valid!*',
-            link_updated = 'The link have been updated.\n*Here\'s the new link*: [&&&1](&&&2)',
-            link_setted = 'The link have been setted.\n*Here\'s the link*: [&&&1](&&&2)',
+            link_invalid = 'لینک مشکل داره',
+            link_updated = 'لینک اپدیت شد.\لینک جدیدم اینه : [&&&1](&&&2)',
+            link_setted = 'لینک ثبت شد . لینک *: [&&&1](&&&2)',
             link_usetted = 'Link *unsetted*',
             poll_unsetted = 'Poll *unsetted*',
             poll_updated = 'The poll have been updated.\n*Vote here*: [&&&1](&&&2)',
@@ -329,12 +329,12 @@ return {
             
         },
         kick_errors = {
-            [101] = 'I\'m not an admin, I can\'t kick people',
-            [102] = 'I can\'t kick or ban an admin',
-            [103] = 'There is no need to unban in a normal group',
-            [104] = 'I can\'t kick or ban an admin', --yes, I need two
-            [105] = 'I\'m not an admin, I can\'t kick people',
-            [106] = 'An unknown error occurred while kicking'
+            [101] = 'من مدیر نیستم نمی تونم کیک کنم',
+            [102] = 'نمی تونم مدیر یا ادمین رو کیک کنم',
+            [103] = 'نیازی به انبن تو گروه معمولی نیست',
+            [104] = 'نم تونم ادمین یا مدیر رو کیک یا بن کنم', --yes, I need two
+            [105] = 'من مدیر نیستم نمی تونم کیک کنم',
+            [106] = 'ی اروری وجود داشت در حال کیک کردن'
         },
     },
 }
