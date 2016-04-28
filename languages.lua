@@ -280,22 +280,22 @@ return {
             success = '*New language setted:* &&&1'
         },
 		banhammer = {
-            kicked_header = 'List of kicked users:\n\n',
-            kicked_empty = 'The list of kicked users is empty',
-            kicked = '&&&1 have been kicked! Is still able to join',
-            banned = '&&&1 have been banned!',
-            unbanned = '&&&1 have been unbanned!',
-            reply = 'Reply to someone',
-            globally_banned = '&&&1 have been globally banned!',
-            no_unbanned = 'This is a normal group, people is not blocked when kicked'
+            kicked_header = 'لیست کیک شده ها:\n\n',
+            kicked_empty = 'لیست خالیه',
+            kicked = '&&&1 کیک شد ',
+            banned = '&&&1 بن شد',
+            unbanned = '&&&1انبن شد',
+            reply = 'به یکی ریپلی کن ',
+            globally_banned = '&&&1 گلوبال بن شد',
+            no_unbanned = 'این گپ معمولیه فقط کیک می کنم بلاک نمی کنم'
         },
         floodmanager = {
             not_changed = 'The max number of messages that can be sent in 5 seconds is already &&&1',
             changed = 'The max number of messages that can be sent in 5 seconds changed from &&&1 to &&&2',
-            enabled = 'Antiflood enabled',
-            disabled = 'Antiflood disabled',
-            kick = 'Now flooders will be kicked',
-            ban = 'Now flooders will be banned'
+            enabled = 'فعال',
+            disabled = 'غیر فعال',
+            kick = 'الان اونایی که فلود کنن کیک میشن',
+            ban = 'الان اونایی که فلود کنن بن میشن'
         },
         mediasettings = {
             list_header = '*Here the list of the media you can block*:\n\n',
