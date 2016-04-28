@@ -145,13 +145,13 @@ return {
             reply_sent = '*Reply sent*:\n\n&&&1',
         },
         service = {
-            new_group = 'Hi all!\n*&&&1* added me here to help you to manage this group.\nIf you want to know how I work, please start me in private or type /help  :)',
-            welcome = 'Hi &&&1, and welcome to *&&&2*!',
+            new_group = 'سلام به همه\n*&&&1*منو ادد کرد تا بتونم به مدیریت گروهتون کمک کنم\nاگه می خوای کار با من رو یاد بگیری بنویس /help',
+            welcome = 'سلام &&&1,به  *&&&2*خوش اومدی!',
             welcome_rls = 'Total anarchy!',
-            welcome_abt = 'No description for this group.',
-            welcome_modlist = '\n\n*Moderators list*:\n',
-            abt = '\n\n*Description*:\n',
-            rls = '\n\n*Rules*:\n',
+            welcome_abt = 'اینفو برای گروه تنظیم نشده.',
+            welcome_modlist = '\n\n*لیست مدیرا*:\n',
+            abt = '\n\n*درباره گروه*:\n',
+            rls = '\n\n*قوانین*:\n',
             bot_removed = '*&&&1* datas have been flushed.\nThanks for having used me!\nI\'m always here if you need an hand ;)'
         },
         setabout = {
