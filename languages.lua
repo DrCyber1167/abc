@@ -250,34 +250,34 @@ return {
             Arab = 'Arab'
         },
         shell = {
-            no_input = 'Please specify a command to run.',
-            done = 'Done!',
+            no_input = 'لطفا یک فرمان مشخص به اجرا.',
+            done = 'حله',
             output = '```\n&&&1\n```'
         },
         tell = {
-            first_name = '*First name*: &&&1\n',
-            last_name = '*Last name*: &&&1\n',
-            group_name = '\n*Group name*: &&&1\n',
-            group_id = '*Group ID*: &&&1'
+            first_name = '*اسم کوچک*: &&&1\n',
+            last_name = '*فامیلی*: &&&1\n',
+            group_name = '\n*اسم گروه*: &&&1\n',
+            group_id = '*ای دی گروه*: &&&1'
         },
         warn = {
-            warn_reply = 'Reply to a message to warn the user',
-            changed_type = 'New action on max number of warns received: *&&&1*',
-            mod = 'A moderator can\'t be warned',
-            warned_max_kick = 'User &&&1 *kicked*: reached the max number of warnings',
-            warned_max_ban = 'User &&&1 *banned*: reached the max number of warnings',
-            warned = '*User* &&&1 *have been warned.*\n_Number of warnings_   *&&&2*\n_Max allowed_   *&&&3* (*-&&&4*)',
-            warnmax = 'Max number of warnings changed.\n*Old* value: &&&1\n*New* max: &&&2',
-            getwarns_reply = 'Reply to an user to check his numebr of warns',
-            limit_reached = 'This user has already reached the max number of warnings (*&&&1/&&&2*)',
-            limit_lower = 'This user is under the max number of warnings.\n*&&&1* warnings missing on a total of *&&&2* (*&&&3/&&&4*)',
-            nowarn_reply = 'Reply to an user to delete his warns',
-            nowarn = 'The number of warns received by this user have been *resetted*'
+            warn_reply = 'شاسگول برای وارن باید ریپلی کنی',
+            changed_type = 'بیشترین تعداد اخطارم اینه: *&&&1*',
+            mod = 'مدیر رو اخطار نمیدم',
+            warned_max_kick = 'یوزر &&&1 کیک شد چون بهش اخطار داده بودم',
+            warned_max_ban = 'یوزر &&&1 بن شد چون بهش اخطار داده بودم',
+            warned = 'یوزر &&&1 *اخطار جدید گرفت*\n_تعداد اخطار ها  *&&&2*\nبیشترین *&&&3* (*-&&&4*)',
+            warnmax = 'بیشترین تعداد اخطار عوض شد.\n*قبلی* : &&&1\n*جدید* : &&&2',
+            getwarns_reply = 'ریپلی کن تا چک کنی اختاراشو',
+            limit_reached = 'این تا حالا (*&&&1/&&&2*)اخطار گرفته',
+            limit_lower = 'این کاربر تحت حداکثر تعداد هشدارها.\n*&&&1* و Rninjs از دست رفته در مجموع از *&&&2* (*&&&3/&&&4*)',
+            nowarn_reply = 'برای پاک کردن ریپلی کن بهش',
+            nowarn = 'ریست شد'
         },
         setlang = {
             list = '*List of available languages:*\n\n&&&1\nUse `/lang xx` to change you language',
-            error = 'The language setted is *not supported*. Use `/lang` to see the list of the available languages',
-            success = '*New language setted:* &&&1'
+            error = 'زبان استفاده شده ساپورت نمیشود.',
+            success = '*زبان جدید :* &&&1'
         },
 		banhammer = {
             kicked_header = 'لیست کیک شده ها:\n\n',
@@ -290,31 +290,31 @@ return {
             no_unbanned = 'این گپ معمولیه فقط کیک می کنم بلاک نمی کنم'
         },
         floodmanager = {
-            not_changed = 'The max number of messages that can be sent in 5 seconds is already &&&1',
-            changed = 'The max number of messages that can be sent in 5 seconds changed from &&&1 to &&&2',
+            not_changed = 'قبلا همین بوده&&&1',
+            changed = 'بیشترین پیامی که ی فرد در 5 ثانیه می تونه بده  &&&1 به &&&2',
             enabled = 'فعال',
             disabled = 'غیر فعال',
             kick = 'الان اونایی که فلود کنن کیک میشن',
             ban = 'الان اونایی که فلود کنن بن میشن'
         },
         mediasettings = {
-            list_header = '*Here the list of the media you can block*:\n\n',
-            settings_header = '*Current settings for media*:\n\n',
-            already = 'The status for the media (`&&&1`) is already (`&&&2`)',
-            changed = 'New status for (`&&&1`) = *&&&2*',
-            wrong_input = 'Wrong input. Use `/media list` to see the available media',
+            list_header = '*اینم لیست:\n\n',
+            settings_header = '*تنظیمات الان رسانه ای*:\n\n',
+            already = 'درباره ی رسانه ی  (`&&&1`) الانم  (`&&&2`)',
+            changed = 'وضعیت جدید(`&&&1`) = *&&&2*',
+            wrong_input = 'اشتبه /medialist بزن تا للیستو ببینی',
         },
         preprocess = {
             flood_ban = '&&&1 *بن شد* چون فلود کرد',
             flood_kick = '&&&1 *کیک شد* چون فلود کرد',
-            media_kick = '&&&1 *kicked*: media sent not allowed',
-            media_ban = '&&&1 *banned*: media sent not allowed',
-            rtl = '&&&1 *kicked*: rtl character in names/messages not allowed',
+            media_kick = '&&&1 کیک شد ارسال فایل مجاز نبود',
+            media_ban = '&&&1 بن شد ارسال  فایل مجاز نبود',
+            rtl = '&&&1 کیک شد ار تی ال مجاز نبود',
             arab = '&&&1 *کیک شد*:عربی حرف زد '
         },
         broadcast = {
-            delivered = 'Broadcast delivered. Check the log for the list of reached ids',
-            no_users = 'No users saved, no broadcast',
+            delivered = 'ارسال شد',
+            no_users = 'یوزری نبود انجام نشد',
         },
         admin = {
             no_reply = 'باید ریپلی کنی',
@@ -322,9 +322,9 @@ return {
             unblocked = '&&&1 از بلاکی در امد',
             already_blocked = '&&&1 قبلا بلاکش کرده بودم',
             already_unblocked = '&&&1 قبلا انبلاک کرده بودم',
-            bcg_no_groups = 'No (groups) id saved',
-            leave_id_missing = 'ID missing',
-            leave_chat_leaved = 'Chat leaved!',
+            bcg_no_groups = 'گروه ایدی نیست',
+            leave_id_missing = 'ای دی در رفته',
+            leave_chat_leaved = 'خارج میشم از چت',
             leave_error = 'ای دی اشتبه'
             
         },
